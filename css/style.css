@@ -55,8 +55,6 @@ html, body {
     z-index: 9;
     position: absolute;
     background-color: rgba(255,255,255, .5);
-    animation: white_tr 1s ease-in;
-    animation-fill-mode: forwards;
 }
 .bl_tr {
     z-index: 9;
@@ -71,8 +69,6 @@ html, body {
     padding-left: 25vw;
     padding-top: 10px;
     color: #fff;
-    animation: black_tr 1.5s linear;
-    animation-fill-mode: forwards;
 }
 .nav {
     width: 100%;
@@ -88,8 +84,6 @@ html, body {
     top: 0;
     z-index: 99999;
     display: none;
-    animation:fadeIn .5s ease-in-out;
-    animation-fill-mode: forwards;
 }
 .scr_nav .menu .right {
     max-width: 100%;
@@ -186,8 +180,6 @@ html, body {
     max-width: 12vw;
     width:100%;
     margin-top: 13%;
-    animation:logo_style 1s ease-in;
-    animation-fill-mode: forwards;
 }
 .caption_back .right {
     max-width: 70%;
@@ -198,8 +190,6 @@ html, body {
     margin:0;
     padding:0;
     margin-top: 7%;
-    animation:cap_style 1s ease-in-out;
-    animation-fill-mode: forwards;
 }
 .caption_back .right h4 {
     font-style: italic;
@@ -208,10 +198,6 @@ html, body {
     margin-top: -20px !important;
     animation:cap_style 1s ease-in-out;
     animation-fill-mode: forwards;
-}
-.tema {
-    animation-fill-mode: forwards;
-    animation:font_h 2.5s ease-in-out;;
 }
 .cfp_ {
     width: 100%;
@@ -426,130 +412,6 @@ footer > div:first-child {
     z-index: 9999999;
     font-size: 18pt;
     display: none;
-}
-@keyframes white_tr {
-    0% {
-        width: 100%;
-        height: 0;
-    }
-    100% {
-        width: 100%;
-        height: 78%;
-    }
-}
-@-webkit-keyframes white_tr {
-    0% {
-        width: 100%;
-        height: 0;
-    }
-    100% {
-        width: 100%;
-        height: 78%;
-    }
-}
-@keyframes font_h {
-    0% {
-        visibility: hidden;
-    }
-    66.67% {
-        visibility: hidden;
-        font-size: 0pt;
-    }
-    100% {
-        visibility: visible;
-        font-size: 12pt;
-    }
-}
-@-webkit-keyframes font_h {
-    0% {
-        visibility: hidden;
-    }
-    66.67% {
-        visibility: hidden;
-        font-size: 0pt;
-    }
-    100% {
-        visibility: visible;
-        font-size: 12pt;
-    }
-}
-@keyframes logo_style {
-    0% {
-        margin-right: -100%;
-    }
-    100% {
-        margin-right: 0;
-    }
-}
-@-webkit-keyframes logo_style {
-    0% {
-        margin-right: -100%;
-    }
-    100% {
-        margin-right: 0;
-    }
-}
-@keyframes cap_style {
-    0% {
-        margin-left: -100%;
-    }
-    100% {
-        margin-left: 0;
-    }
-}
-@-webkit-keyframes cap_style {
-    0% {
-        margin-left: -100%;
-    }
-    100% {
-        margin-left: 0;
-    }
-}
-@keyframes black_tr {
-    0% {
-        width: 0;
-        height: 300px;
-    }
-    50% {
-        width: 0;
-        height: 100px;
-    }
-    100% {
-        width: 100%;
-        height: 30%;
-        transform: skew(60deg);
-    }
-}
-@-webkit-keyframes black_tr {
-    0% {
-        width: 0;
-        height: 300px;
-    }
-    50% {
-        width: 0;
-        height: 100px;
-    }
-    100% {
-        width: 100%;
-        height: 30%;
-        transform: skew(60deg);
-    }
-}
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }
 @media screen and (max-width: 1110px) {
     .scr_nav {
